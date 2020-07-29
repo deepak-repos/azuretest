@@ -21,27 +21,15 @@
 		},
 		"schema": [
 			{
-				"name": "MATNBR",
+				"name": "id",
 				"type": "String"
 			},
 			{
-				"name": "2770",
+				"name": "name",
 				"type": "String"
 			},
 			{
-				"name": "43488",
-				"type": "String"
-			},
-			{
-				"name": "LSR 4050 A",
-				"type": "String"
-			},
-			{
-				"name": "LSR 4050 A - pail (20l-20kg)",
-				"type": "String"
-			},
-			{
-				"name": "REAL_SUB",
+				"name": "lname",
 				"type": "String"
 			}
 		]
