@@ -1,0 +1,47 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "az-sample-container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "MATNBR",
+				"type": "String"
+			},
+			{
+				"name": "2770",
+				"type": "String"
+			},
+			{
+				"name": "43488",
+				"type": "String"
+			},
+			{
+				"name": "LSR 4050 A",
+				"type": "String"
+			},
+			{
+				"name": "LSR 4050 A - pail (20l-20kg)",
+				"type": "String"
+			},
+			{
+				"name": "REAL_SUB",
+				"type": "String"
+			}
+		]
+	}
+}
